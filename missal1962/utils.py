@@ -3,6 +3,7 @@ import os
 import re
 from typing import List, Union, Pattern
 
+import mistune
 import yaml
 
 from constants.common import CUSTOM_PREFACES, STATIC_DATA_DIR
@@ -57,9 +58,6 @@ def format_propers(day: 'Day'):
 
 
 def format_proper_sections(propers_vernacular, propers_latin):
-    pregenerated_proper = get_pregenerated_proper(propers_vernacular.lang, propers_vernacular.id)
-    if pregenerated_proper is not None:
-        return pregenerated_proper
     pv = propers_vernacular.serialize()
     pl = {i["id"]: i["body"] for i in propers_latin.serialize()}
     for val in pv:
@@ -84,6 +82,8 @@ def get_supplement(root_path, lang, resource, subdir=None):
             path_args.append(subdir)
         path_args.append(f"{resource}.yaml")
         with open(os.path.join(*path_args)) as fh:
-            return yaml.load(fh)
+            content = yaml.full_load(fh)
+            content["body"] = mistune.markdown(content["body"], escape=False)
+            return content
     except IOError:
         raise SupplementNotFound(f"{subdir}/{resource}")
