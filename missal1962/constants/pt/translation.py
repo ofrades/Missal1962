@@ -555,7 +555,6 @@ TITLES = {
     constants.SANCTI_08_29: 'Degolação de  S. João Baptista',
     constants.SANCTI_08_30: 'Santa Rosa de Lima, Virgem',
     constants.SANCTI_08_31: 'S. Raimundo Nonato, Confessor',
-
     constants.SANCTI_09_02: 'S. Estêvão, Rei e Confessor',
     constants.SANCTI_09_03: 'S. Pio X, Papa e Confessor',
     constants.SANCTI_09_05: 'S. Lourenço Justiniano, Bispo e Confessor',
@@ -650,8 +649,42 @@ TITLES = {
     constants.SANCTI_12_27: 'S. João, Apóstolo e Evangelista',
     constants.SANCTI_12_28: 'Santos Inocentes',
     constants.SANCTI_12_29: 'S. Tomás de Cantuária, Bispo e Mártir',
-    constants.SANCTI_12_31: 'S. Silvestre'
+    constants.SANCTI_12_31: 'S. Silvestre',
+    constants.VOTIVE_ANGELS: 'Holy Angels',
+    constants.VOTIVE_JOSEPH: 'St. Joseph',
+    constants.VOTIVE_JESUSETERNALPRIEST: 'Our Lord Jesus Christ, Supreme and Eternal Priest',
+    constants.VOTIVE_PENT01_0: 'Most Holy Trinity',
+    constants.VOTIVE_PENT02_5: 'Sacred Heart of Jesus',
+    constants.VOTIVE_08_22: 'Immaculate Heart of Mary',
+    constants.VOTIVE_MORTALITATIS: 'Tempore Mortalitatis'
 }
+
+VOTIVE_MASSES = [
+    {'ref': 'tempore-mortalitatis', 'id': constants.VOTIVE_MORTALITATIS, 'title': TITLES[constants.VOTIVE_MORTALITATIS],
+     'tags': ['For the deliverance from death in time of pestilence']},
+    {'ref': 'rorate', 'id': constants.COMMUNE_C_10A, 'title': TITLES[constants.COMMUNE_C_10A],
+     'tags': ['Advent']},
+    {'ref': 'vultum-tuum', 'id': constants.COMMUNE_C_10B, 'title': TITLES[constants.COMMUNE_C_10B],
+     'tags': ['From Nativity util Purification']},
+    {'ref': 'salve-sancta-parens-3', 'id': constants.COMMUNE_C_10C, 'title': TITLES[constants.COMMUNE_C_10C],
+     'tags': ['From Feb 3 until Holy Wednesday']},
+    {'ref': 'salve-sancta-parens-4', 'id': constants.COMMUNE_C_10PASC, 'title': TITLES[constants.COMMUNE_C_10PASC],
+     'tags': ['Eastertide']},
+    {'ref': 'salve-sancta-parens-5', 'id': constants.COMMUNE_C_10T, 'title': TITLES[constants.COMMUNE_C_10T],
+     'tags': ['From Trinity Sunday until Advent']},
+    {'ref': 'trinitas', 'id': constants.VOTIVE_PENT01_0, 'title': TITLES[constants.VOTIVE_PENT01_0],
+     'tags': ['Votive', 'Monday']},
+    {'ref': 'angelis', 'id': constants.VOTIVE_ANGELS, 'title': TITLES[constants.VOTIVE_ANGELS],
+     'tags': ['Votive', 'Tuesday']},
+    {'ref': 'joseph', 'id': constants.VOTIVE_JOSEPH, 'title': TITLES[constants.VOTIVE_JOSEPH],
+     'tags': ['Votive', 'Wednesday']},
+    {'ref': 'aeterno-sacerdote', 'id': constants.VOTIVE_JESUSETERNALPRIEST, 'title': TITLES[constants.VOTIVE_JESUSETERNALPRIEST],
+     'tags': ['Votive', 'Thursday']},
+    {'ref': 'cordis-jesu', 'id': constants.VOTIVE_PENT02_5, 'title': TITLES[constants.VOTIVE_PENT02_5],
+     'tags': ['Votive', 'Friday']},
+    {'ref': 'cordis-mariae', 'id': constants.VOTIVE_08_22, 'title': TITLES[constants.VOTIVE_08_22],
+     'tags': ['Votive', 'First Saturday']},
+]
 
 SECTION_LABELS = {
     'Communicantes': 'Communicantes',
@@ -682,7 +715,7 @@ SECTION_LABELS = {
     'Benedictio Palmorum': 'Benção dos Ramos',
     'De distributione ramorum': 'Distribuição dos Ramos',
     'De lectione Evangelica': 'Leitura do Evangelho',
-    'De processione cum ramis benedictis': 'Procição dos Ramos',
+    'De processione cum ramis benedictis': 'Procissão dos Ramos',
     'Hymnus ad Christum Regem': 'Hino a Cristo Rei',
     # Quad6-4r, Feria Quinta in Coena Domini
     'Maundi': 'Quinta-feira Santa',
@@ -708,6 +741,7 @@ SECTION_LABELS = {
     'Pro Laudibus': 'Laudes',
     'Conclusio': 'Conclusão',
     'Benedictio cinerum': 'Benção das Cinzas'
+
 }
 
 SECTION_LABELS_MULTI = {
