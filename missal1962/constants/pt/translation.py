@@ -555,6 +555,7 @@ TITLES = {
     constants.SANCTI_08_29: 'Degolação de  S. João Baptista',
     constants.SANCTI_08_30: 'Santa Rosa de Lima, Virgem',
     constants.SANCTI_08_31: 'S. Raimundo Nonato, Confessor',
+    constants.SANCTI_09_01: 'S. Egídio, Abade',
     constants.SANCTI_09_02: 'S. Estêvão, Rei e Confessor',
     constants.SANCTI_09_03: 'S. Pio X, Papa e Confessor',
     constants.SANCTI_09_05: 'S. Lourenço Justiniano, Bispo e Confessor',
@@ -712,7 +713,7 @@ SECTION_LABELS = {
     'De Distributione Candelarum': 'Distribuição das Velas',
     'De Processione': 'Procissão',
     # Quad6-0r, Dominica II Passionis seu in Palmis
-    'Benedictio Palmorum': 'Benção dos Ramos',
+    'Benedictio Palmorum': 'Bênção dos Ramos',
     'De distributione ramorum': 'Distribuição dos Ramos',
     'De lectione Evangelica': 'Leitura do Evangelho',
     'De processione cum ramis benedictis': 'Procissão dos Ramos',
@@ -728,19 +729,19 @@ SECTION_LABELS = {
     'Crucis Adoratione': 'III. Adoração da Cruz',
     'CommunioQ': 'IV. Communion',
     # Quad6-5r, Sabbato Sancto
-    'Benedictio ignis': 'Benção do Fogo',
-    'De benedictione cerei Paschalis': 'Benção da Vela Pascal',
+    'Benedictio ignis': 'Bênção do Fogo',
+    'De benedictione cerei Paschalis': 'Bênção da Vela Pascal',
     'De solemni processione': 'Procissão da Vela Pascal',
     'De praeconio paschali': 'Proclamação Pascal',
     'De lectionibus': 'Leituras',
     'De prima parte Litaniarum': 'Primeira parte da Ladainha',
-    'De benedictione aquae baptismalis': 'Benção da água baptismal',
+    'De benedictione aquae baptismalis': 'Bênção da água baptismal',
     'De renovatione promissionum baptismatis': 'Renovação das promessas baptismais',
     'De altera parte Litaniarum': 'Segunda parte da Ladainha',
     'De Missa solemni Vigiliae paschalis': 'Santa Missa',
     'Pro Laudibus': 'Laudes',
     'Conclusio': 'Conclusão',
-    'Benedictio cinerum': 'Benção das Cinzas'
+    'Benedictio cinerum': 'Bênção das Cinzas'
 
 }
 

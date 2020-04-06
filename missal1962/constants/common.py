@@ -12,7 +12,7 @@ SUPPLEMENT_DIR = os.path.join(RESOURCES_DIR, 'supplement')
 SUNDAY = 6
 LANGUAGE_LATIN = 'la'
 LANGUAGE_ENGLISH = 'pt'
-LANGUAGES = {'en': 'English', 'pl': 'Polski', 'pt': 'Portugues'}
+LANGUAGES = {'pt': 'Portugues', 'en': 'English', 'pl': 'Polski'}
 DIVOFF_LANG_MAP = {'la': 'Latin'}
 DIVOFF_LANG_MAP.update(LANGUAGES)
 TYPE_TEMPORA = 'tempora'
@@ -107,18 +107,6 @@ VISIBLE_SECTIONS = [
     'De lectione Evangelica',
     'De processione cum ramis benedictis',
     'Hymnus ad Christum Regem',
-    # Quad6-0, Dominica in Palmis
-    'Benedictio Palmorum',
-    'Antiphona',
-    'LectioL1',
-    'GradualeL1',
-    'EvangeliumL1',
-    'Benedictio palmorum',
-    'Pueri Hebræorum',
-    'Antiphona',
-    'De processione cum ramis benedictis',
-    'Antiphona',
-    'Responsorium',
     # Quad6-5r, Feria Sexta in Parasceve
     'Lectiones',
     'Passio',
@@ -136,48 +124,6 @@ VISIBLE_SECTIONS = [
     'De renovatione promissionum baptismatis',
     'De altera parte Litaniarum',
     'De Missa solemni Vigiliae paschalis',
-    # Quad6-6, Sabbato Sancto
-    'Benedictio ignis',
-    'Benedictio incensum',
-    'De benedictione cerei PaschalisL',
-    'Prefatio1',
-    'Prophetia1',
-    'Prophetia2',
-    'Prophetia3',
-    'Prophetia4',
-    'TractusL1',
-    'Prophetia5',
-    'Prophetia6',
-    'Prophetia7',
-    'Prophetia8',
-    'TractusL2',
-    'Prophetia9',
-    'Prophetia10',
-    'Prophetia11',
-    'TractusL3',
-    'Prophetia12',
-    'Benedictio Fontis',
-    'TractusL4',
-    'Tractus2',
-    'Prefatio2',
-    'Litaniae1',
-    'Missa',
-    'Kyrie1',
-    'Gloria1',
-    'Lectio1',
-    'TractusL5',
-    'Evangelium1',
-    'Benedicit incensum',
-    'Secreta1',
-    'Prefatio3',
-    'Sanctus',
-    'Canon1',
-    'Commemoratio pro vivis',
-    'Commemoratio pro defunctis',
-    'Communio Populi',
-    'Vespers',
-    'Magnificat',
-    'Ultimaev',
     # Feria IV Cinerum
     'Benedictio cinerum',
     # Common sections
@@ -386,12 +332,10 @@ TEMPORA_PASC6_6 = 'tempora:Pasc6-6:1:r'  # Vigil of Pentecost
 TEMPORA_PASC7_0 = 'tempora:Pasc7-0:1:r'  # Pentecost
 TEMPORA_PASC7_1 = 'tempora:Pasc7-1:1:r'  # Whit Monday
 TEMPORA_PASC7_2 = 'tempora:Pasc7-2:1:r'
-# Ember Wednesday in Octave of Pentecost
-TEMPORA_PASC7_3 = 'tempora:Pasc7-3:1:r'
+TEMPORA_PASC7_3 = 'tempora:Pasc7-3:1:r'  # Ember Wednesday in Octave of Pentecost
 TEMPORA_PASC7_4 = 'tempora:Pasc7-4:1:r'
 TEMPORA_PASC7_5 = 'tempora:Pasc7-5:1:r'  # Ember Friday in Octave of Pentecost
-# Ember Saturday in Octave of Pentecost
-TEMPORA_PASC7_6 = 'tempora:Pasc7-6:1:r'
+TEMPORA_PASC7_6 = 'tempora:Pasc7-6:1:r'  # Ember Saturday in Octave of Pentecost
 TEMPORA_PENT01_0A = 'tempora:Pent01-0a:2:g'  # 1st Sunday after Pentecost
 TEMPORA_PENT01_0 = 'tempora:Pent01-0r:1:w'  # Trinity Sunday
 TEMPORA_PENT01_1 = 'tempora:Pent01-1:4:g'
@@ -403,13 +347,10 @@ TEMPORA_PENT01_6 = 'tempora:Pent01-6:4:g'
 TEMPORA_PENT02_0 = 'tempora:Pent02-0r:2:g'  # Sunday in 2nd week after Pentecost
 TEMPORA_PENT02_1 = 'tempora:Pent02-1:4:g'  # Monday in 2nd week after Pentecost
 TEMPORA_PENT02_2 = 'tempora:Pent02-2:4:g'  # Tuesday in 2nd week after Pentecost
-# Wednesday in 2nd week after Pentecost
-TEMPORA_PENT02_3 = 'tempora:Pent02-3:4:g'
-# Thursday in 2nd week after Pentecost
-TEMPORA_PENT02_4 = 'tempora:Pent02-4:4:g'
+TEMPORA_PENT02_3 = 'tempora:Pent02-3:4:g'  # Wednesday in 2nd week after Pentecost
+TEMPORA_PENT02_4 = 'tempora:Pent02-4:4:g'  # Thursday in 2nd week after Pentecost
 TEMPORA_PENT02_5 = 'tempora:Pent02-5:1:w'  # Feast of the Sacred Heart
-# Saturday in 2nd week after Pentecost
-TEMPORA_PENT02_6 = 'tempora:Pent02-6Feria:4:g'
+TEMPORA_PENT02_6 = 'tempora:Pent02-6Feria:4:g'  # Saturday in 2nd week after Pentecost
 TEMPORA_PENT03_0 = 'tempora:Pent03-0r:2:g'  # Sunday in 3rd week after Pentecost
 TEMPORA_PENT03_1 = 'tempora:Pent03-1Feria:4:g'
 TEMPORA_PENT03_2 = 'tempora:Pent03-2Feria:4:g'
@@ -602,17 +543,13 @@ TEMPORA_NAT1_1 = 'tempora:Nat1-1:2:w'  # Ordinary day in the Octave of Nativity
 TEMPORA_NAT2_0 = 'tempora:Nat2-0:2:w'  # Feast of the Holy Name of Jesus
 
 TEMPORA_C_10A = 'tempora:C10a:4:v'  # B. M. V. Saturdays in Advent
-# B. M. V. Saturdays between Nativity and Purification
-TEMPORA_C_10B = 'tempora:C10b:4:w'
-# B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
-TEMPORA_C_10C = 'tempora:C10c:4:w'
+TEMPORA_C_10B = 'tempora:C10b:4:w'  # B. M. V. Saturdays between Nativity and Purification
+TEMPORA_C_10C = 'tempora:C10c:4:w'  # B. M. V. Saturdays between Feb 2 and Wednesday in Holy Week
 TEMPORA_C_10PASC = 'tempora:C10Pasc:4:w'  # B. M. V. Saturdays in Easter period
-# B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
-TEMPORA_C_10T = 'tempora:C10t:4:w'
+TEMPORA_C_10T = 'tempora:C10t:4:w'  # B. M. V. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
 
 # SANCTI - days which have fixed date
-# Feast of Christ the King; last Sunday of October
-SANCTI_10_DUr = 'sancti:10-DUr:1:w'
+SANCTI_10_DUr = 'sancti:10-DUr:1:w'  # Feast of Christ the King; last Sunday of October
 SANCTI_01_01 = 'sancti:01-01:1:w'  # Octave of the Nativity
 SANCTI_01_06 = 'sancti:01-06:1:w'  # Epiphany
 SANCTI_01_13 = 'sancti:01-13:2:w'  # Baptism of the Lord
@@ -636,8 +573,7 @@ SANCTI_01_30 = 'sancti:01-30:3:r'
 SANCTI_01_31 = 'sancti:01-31:3:w'
 
 SANCTI_02_01 = 'sancti:02-01:3:r'
-# Feast of the Purification of the Blessed Virgin Mary
-SANCTI_02_02 = 'sancti:02-02:2:w'
+SANCTI_02_02 = 'sancti:02-02:2:w'  # Feast of the Purification of the Blessed Virgin Mary
 SANCTI_02_03 = 'sancti:02-03:4:r'
 SANCTI_02_04 = 'sancti:02-04:3:w'
 SANCTI_02_05 = 'sancti:02-05:3:r'
@@ -697,7 +633,6 @@ SANCTI_04_30 = 'sancti:04-30:3:w'
 SANCTI_05_01 = 'sancti:05-01r:1:w'  # St. Joseph the Worker
 SANCTI_05_02 = 'sancti:05-02:3:w'
 SANCTI_05_03 = 'sancti:05-03:4:r'
-SANCTI_05_03PT = 'sancti:05-03pt:1:w'
 SANCTI_05_03PL = 'sancti:05-03pl:1:w'
 SANCTI_05_04 = 'sancti:05-04:3:w'
 SANCTI_05_05 = 'sancti:05-05:3:w'
@@ -754,8 +689,7 @@ SANCTI_06_29 = 'sancti:06-29:1:r'  # Ss. Peter and Paul
 SANCTI_06_30 = 'sancti:06-30:3:r'
 
 SANCTI_07_01 = 'sancti:07-01:1:r'  # Feast of the Most Precious Blood
-# Feast of the Visitation of the Blessed Virgin Mary
-SANCTI_07_02 = 'sancti:07-02:2:w'
+SANCTI_07_02 = 'sancti:07-02:2:w'  # Feast of the Visitation of the Blessed Virgin Mary
 SANCTI_07_03 = 'sancti:07-03r:3:r'
 SANCTI_07_05 = 'sancti:07-05:3:w'
 SANCTI_07_07 = 'sancti:07-07:3:w'
@@ -906,8 +840,7 @@ SANCTI_12_04 = 'sancti:12-04:3:w'
 SANCTI_12_05 = 'sancti:12-05:4:w'
 SANCTI_12_06 = 'sancti:12-06:3:w'
 SANCTI_12_07 = 'sancti:12-07:3:w'
-# Immaculate Conception of the Blessed Virgin Mary
-SANCTI_12_08 = 'sancti:12-08:1:w'
+SANCTI_12_08 = 'sancti:12-08:1:w'  # Immaculate Conception of the Blessed Virgin Mary
 SANCTI_12_10 = 'sancti:12-10:4:r'
 SANCTI_12_11 = 'sancti:12-11:3:w'
 SANCTI_12_13 = 'sancti:12-13r:3:r'
@@ -925,10 +858,8 @@ SANCTI_12_31 = 'sancti:12-31r:4:w'
 
 # COMMUNE / VOTIVE
 COMMUNE_C_10A = 'commune:C10a:0:w'  # B. V. M. Saturdays in Advent
-# B. V. M. Saturdays between Nativity and Purification
-COMMUNE_C_10B = 'commune:C10b:0:w'
-# B. V. M. Saturdays between Feb 2 and Wednesday in Holy Week
-COMMUNE_C_10C = 'commune:C10c:0:w'
+COMMUNE_C_10B = 'commune:C10b:0:w'  # B. V. M. Saturdays between Nativity and Purification
+COMMUNE_C_10C = 'commune:C10c:0:w'  # B. V. M. Saturdays between Feb 2 and Wednesday in Holy Week
 COMMUNE_C_10PASC = 'commune:C10Pasc:0:w'  # B. V. M. Saturdays in Easter period
 COMMUNE_C_10T = 'commune:C10t:0:w'  # B. V. M. Saturdays between Trinity Sunday and Saturday before 1st Sunday of Advent
 VOTIVE_PENT01_0 = 'votive:Pent01-0r:0:w'  # Trinity
@@ -1007,7 +938,7 @@ TABLE_OF_PRECEDENCE = (
     # 2nd class feasts
     TEMPORA_PASC5_3,  # Vigil of Ascension
     SANCTI_01_13,  # Baptism of the Lord
-    SANCTI_08_06,  # Transfiguration
+    SANCTI_08_06, # Transfiguration
     PATTERN_TEMPORA_SUNDAY_CLASS_2,
     PATTERN_CLASS_2,
     SANCTI_12_26,  # Octave of Nativity
@@ -1097,13 +1028,11 @@ for id_, sections in EXCLUDE_SECTIONS:
 
 # Earlier prefaces takes precedence.
 CUSTOM_PREFACES = (
-    # 2nd Sun. after Pentecost - force Trinitate as otherwise it shows communis
-    (TEMPORA_PENT02_0, PREFATIO_TRINITATE),
+    (TEMPORA_PENT02_0, PREFATIO_TRINITATE),  # 2nd Sun. after Pentecost - force Trinitate as otherwise it shows communis
     (SANCTI_01_01, PREFATIO_NAT),
     (SANCTI_01_06, PREFATIO_EPI),
     (SANCTI_11_09, PREFATIO_COMMUNIS),  # Consecration of basilica in Lateran
-    # Consecration of basilica of Peter and Paul
-    (SANCTI_11_18, PREFATIO_COMMUNIS),
+    (SANCTI_11_18, PREFATIO_COMMUNIS),  # Consecration of basilica of Peter and Paul
     (SANCTI_07_25, PREFATIO_APOSTOLIS),  # st. James, the Apostle
     (SANCTI_12_21, PREFATIO_APOSTOLIS),  # st. Thomas, the Apostle
     (SANCTI_06_24, PREFATIO_COMMUNIS),  # St. John the Baptist
@@ -1111,8 +1040,7 @@ CUSTOM_PREFACES = (
     (PATTERN_ADVENT_SUNDAY, PREFATIO_TRINITATE),
     (PATTERN_EASTER, PREFATIO_PASCHAL),
     (TEMPORA_QUAD6_5, PREFATIO_OMIT),
-    # Lent until Saturday before Passion Sunday
-    (re.compile(r'^tempora:Quad(p3-[3-6]|[1-4]-\d)'), PREFATIO_LENT)
+    (re.compile(r'^tempora:Quad(p3-[3-6]|[1-4]-\d)'), PREFATIO_LENT)  # Lent until Saturday before Passion Sunday
 )
 
 CUSTOM_INTER_READING_SECTIONS = {
