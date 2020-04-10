@@ -6,7 +6,7 @@
         "Paramentos pretos"
       ],
       "colors": ["b"],
-      "description": "",
+      "description": "A Estação é na basílica que, em Roma, representa Jerusálem, da qual tem o nome. É consagrada à Paixão do Salvador e contem terra do Calvário, fragmentos importantes do lenho da verdadeira Cruz, e um dos pregos que serviram para crucificar a Jesus. Neste dia, aniversário da morte do Salvador, a Igreja dá novamente a seus templos aspecto de desolação e reveste os seus ministros com paramentos de luto.",
       "id": "tempora:Quad6-5r:1:bv",
       "rank": 1,
       "tempora": null,
@@ -43,7 +43,7 @@
             "*Tractus*\n*Ps 139:2-10, 14*\nEripe me, Domine, ab homine malo: a viro iniquo libera me.\nV. Qui cogitaverunt malitias in corde: tota die constituebant praelia.\nV. Acuerunt linguas suas sicut serpentis: venenum aspidum sub labiis eorum.\nV. Custodi me, Domine, de manu peccatoris: et ab hominibus iniquis libera me.\nV. Qui cogitaverunt supplantare gressus meos: absconderunt superbi laqueum mihi.\nV. Et funes extenderunt in laqueum pedibus meis, iuxta iter scandalum posuerunt mihi.\nV. Dixi Domino, Deus meus es tu: exaudi, Domine, vocem orationis meae.\nV. Domine, Domine virtus salutis meae obumbra caput meum in die belli.\nV. Ne tradas me a desiderio meo peccatori: cogitaverunt adversus me: ne derelinquas me, ne unquam exaltentur.\nV. Caput circuitus eorum: labor labiorum ipsorum operiet eos.\nV. Verumtamen iusti confitebuntur nomini tuo: et habitabunt recti cum vultu tuo."
           ]
         ],
-        "id": "",
+        "id": "Lectionibus",
         "label": "Primeira Parte: Lições"
       },
       {
@@ -86,7 +86,7 @@
             "Post haec autem rogavit Pilatum Ioseph ab Arimathaea eo quod esset discipulus Iesu, occultus autem propter metum Iudaeorum, ut tolleret corpus Iesu.  Et permisit Pilatus.  Venit ergo, et tulit corpus Iesu.  Venit autem et Nicodemus, qui venerat ad Iesum nocte primum, ferens mixturam myrrhae, et aloes, quasi libras centum.  Acceperunt ergo corpus Iesu, et ligaverunt illud linteis cum aromatibus, sicut mos est Iudaeis sepelire.  Erat autem in loco, ubi crucifixus est, hortus: et in horto monumentum novum, in quo nondum quisquam positus erat.  Ibi ergo propter Parasceven Iudaeorum, quia iuxta erat monumentum, posuerunt Iesum."
           ]
         ],
-        "id": "",
+        "id": "Passio",
         "label": "Paixão de N. S. Jesus Cristo, segundo S. João"
       },
       {
@@ -144,7 +144,7 @@
             "Oremus et pro paganis: ut Deus omnipotens auferat iniquitatem a cordibus eorum; ut relictis idolis suis, convertantur ad Deum vivum et verum, et unicum Filium eius Iesum Christum Deum et Dominum nostrum.\nS.  Oremus.\nV.  Flectamus genua.\nR.  Levate.\nOmnipotens sempiterne Deus, qui non mortem peccatorum, sed vitam semper inquiris: suscipe pro vitam semper inquiris: suscipe propitius orationem nostram, et libera  eos ab idolorum cultura; et aggrega Ecclesiae tuae sanctae ad laudem et gloriam nominis tui. Per Dominum...\nR. Amen."
           ]
         ],
-        "id": "",
+        "id": "Orationes",
         "label": "Segunda Parte: Orações"
       },
       {
@@ -167,7 +167,6 @@
             "V. Eis o Lenho da Cruz, do qual pendeu a salvação do mundo!\nR. Vinde, adoremo-lo!\nV. Eis o Lenho da Cruz, do qual pendeu a salvação do mundo!\nR. Vinde, adoremo-lo!",
             "V. Ecce lignum Crucis, in quo salus mundi pependit.\nR.  Venite, adoremus.\nV. Ecce lignum Crucis, in quo salus mundi pependit.\nR. Venite, adoremus."
           ],
-          [""],
           ["Improperia"],
           [
             "Dois cantores cantam Popule meus... até Agios o Theos. Este versículo é inspirado do IV livro de Esdras."
@@ -303,7 +302,7 @@
             "Ant. Dulce lignum, dulces clavos, Dulce pondus sustinet."
           ]
         ],
-        "id": "",
+        "id": "Crucis Adoratione",
         "label": "Terceira Parte: Adoração Solene da Cruz"
       },
       {
@@ -312,12 +311,12 @@
             "No fim da Adoração da Cruz, acendem-se as velas no Altar e o Diácono, tomando a bolsa de corporais, estende o corporal como de ordinário e coloca perto o purificatório. Terminada a Adoração, toma respeitosamente a Cruz e depõe-na sobre o Altar. Forma-se a procissão, que se dirige ao lugar onde o Santíssimo Sacramento repousa desde a véspera. Chegando ao Altar de repouso, acendem-se as velas que não se apagam senão depois da Comunhão. O diácono tira do Tabernáculo o cálice contendo a Hóstia e entrega-a nas mãos do Sacerdote. Voltam então, na mesma ordem em que vieram. Durante a procissão, canta-se o hino: Vexilla Regis."
           ],
           [
-             "Ó nobre estandarte do Rei dos reis, ó misteriosa Cruz, aparece agora, pois a vida sofreu a morte, e pela sua morte nos deu a vida!",
-             "Vexílla Regis pródeunt; fulget crucis mystérium, qua vita mortem pértulit, et morte vitam prótulit"
+            "Ó nobre estandarte do Rei dos reis, ó misteriosa Cruz, aparece agora, pois a vida sofreu a morte, e pela sua morte nos deu a vida!",
+            "Vexílla Regis pródeunt; fulget crucis mystérium, qua vita mortem pértulit, et morte vitam prótulit"
           ],
           [
-             "Do seu lado, ferido pela cruel lança, correm a água e o sangue, destinados a lavrar a nódoa dos nossos crimes.",
-             "Quæ vulneráta lánceæ mucróne diro, críminum ut nos laváret sórdibus, manávit unda et sánguine."
+            "Do seu lado, ferido pela cruel lança, correm a água e o sangue, destinados a lavrar a nódoa dos nossos crimes.",
+            "Quæ vulneráta lánceæ mucróne diro, críminum ut nos laváret sórdibus, manávit unda et sánguine."
           ],
           [
             "Cumpriu-se o oráculo de David, que nos seus cânticos inspirados havia anunciado às nações: «Deus reinará pelo madeiro».",
@@ -386,7 +385,7 @@
             "Depois o Sacerdote retira-se com os seus ministros. Diz-se então, no Coro as Vésperas sem canto e desnuda-se o Altar"
           ]
         ],
-        "id": "",
+        "id": "Feria Sexta in Parasceve",
         "label": "Quarta Parte: Missa dos Pré-Santificados"
       }
     ]

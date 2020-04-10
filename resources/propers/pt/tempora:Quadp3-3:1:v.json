@@ -3,7 +3,7 @@
     "info": {
       "additional_info": ["Estação em Santa Sabina", "Paramentos roxos"],
       "colors": ["v"],
-      "description": "",
+      "description": "A Estação em Roma é em Santa Sabina no Monte Aventiono, num Santuário elevado em 425, no local da casa da mártir. Convertida à fé por uma criada, ela aí foi decapitada e enterrada secretamente. A essa igreja, outrora o Papa se dirigia descalço para inaugurar a milícia cristã dos santos jejuns da Quaresma, em que lutamos contra os espíritos maus com a arma da abstinência. Era uma das 25 paróquias romanas do século V. A exemplo dos Ninivitas, que fizeram penitência na cinza e no cilício, a Igreja, a fim de humilhar o nosso orgulho e lembrar-nos a sentença de morte que devemos sofrer em consequência do pecado, coloca hoje sobre nossas cabeças um pouco de cinzas, dizendo-nos: 'Lembra-te, ó homem, que és pó e que em pó te hás de tornar.' Viemos do pó e a ele voltaremos, eis com que abateremos o nosso orgulho. Isto são vestígios da antiga cerimónia de que nos fala o Pontifical Romano. Os cristãos culpados de faltas graves deviam submeter-se à penitência pública. Na Quarta-feira de Cinzas o Pontífice benzia os cilício que eles deviam trazer durante a santa Quarentena e impunha-lhes as cinzas feitas das palmas que haviam servido na procissão do Domingo de Ramos do ano anterios. Em seguida cantando os fiéis os sete salmos penitênciais expulsava-se do lugar santo os penitentes por causa dos seus pecados, assim como Adão, o primeiro homem, havia sido expulso do paraíso, devido à sua desobediência. Somente na Quinta-feira Santa depunham eles as vestes de penitência e entravam de novo na igreja; depois de ter obtido a sua reconciliação pelo labor da penitência quaresmal, a confissão e a absolvição sacramental. O Papa Urbano VI no Concílio de Benevento prescreveu que as cinzas fossem impostas nos simples fiéis. Recebamos, pois, as Cinzas e recebamo-las em espírito de humildade e penitênciam, a fim de que este poderoso sacramental nos obtenha de Deus as graças imploradas pela Igreja ao benze-las. Deus perdoa, com efeito, os pecados dos homens em atenção ao seu arrependimento.  É rico em bondade para com os que se convertem a Ele de todo o coraçao, no jejum, nas lágrimas e nos gemidos. Não devemos, na verdade rasgar as nossas vestes, em sinal de dor, como faziam os Fariseus, e sim os nossos corações, pois, não é aos homens que devemos tomar por testemunhas de nossos jejuns, e sim nosso Pai que vê no segredo de nossas almas e no-lo restriibuirá, diz Jesus no sermão da montanha. Busquemos na Eucarístia o socorro de que precisamos, para que, celebrando hoje a solene abertura do jejum sagrado, terminemos essa carreira com impertubável devoção.",
       "id": "tempora:Quadp3-3:1:v",
       "rank": 1,
       "tempora": null,
@@ -62,7 +62,7 @@
             "V. Dóminus vobíscum.\nR. Et cum spíritu tuo.\nOrémus.\nConcéde nobis, Dómine, præsídia milítiæ christiánæ sanctis inchoáre jejúniis: ut, contra spiritáles nequítias pugnatúri, continéntiæ muniámur auxíliis. Per Christum, Dóminum nostrum. R. Amen."
           ]
         ],
-        "id": "",
+        "id": "Benedictio cinerum",
         "label": "Bênção das Cinzas"
       },
       {
@@ -178,6 +178,4 @@
         "id": "Super populum",
         "label": "Sobre o povo"
       }
-    ]
-  }
-]
+  

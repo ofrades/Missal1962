@@ -6,7 +6,7 @@
         "Paramentos roxos e brancos"
       ],
       "colors": ["v", "w"],
-      "description": "",
+      "description": "A Estação é em São João de Latrão. Na basílica mãe e mestra do mundo cristão, celebra a Igreja a primeira Missa de Páscoa e recebe em seu seio os numerosos Catecúmenos que outrora baptizava neste dia. Dedicado, primeiramente, a São Salvador esse santuário foi em seguida consagrado a S. João Baptista como o baptistério dele dependente. Anteriormente, a Igreja, não celebrava neste dia serviço algum especial. Como uma esposa desolada, velava junto do túmulo do esposo que acabava de lhe ser arrebatado. Independentemente de qualquer reunião estacional, a assembleia era convocada nessa tarde, para o sétimo e último escrutínio a preceder de mui perto o baptismo. A noite, realizava-se a Véspera ou Vigília Solene da Páscoa, no fim da qual, antes da aurora os Catecúmenos mergulhados na água do baptistério, eram como sepultados com Jesus. À mesma hora em que o Cristo saía triunfante do sepulcro, nasciam eles à vida da graça. Mais tarde, duas antecipações sucessivas fizeram celebrar essas magníficas cerimónias, primeiramente à noite e, depois, na manhã do Sábado, constatando-se assim uma transição súbita da tristeza à alegria e certas anomalias que esta observação faz compreender.",
       "id": "tempora:Quad6-6r:1:vw",
       "rank": 1,
       "tempora": null,
@@ -342,7 +342,7 @@
             "Mistura esse Óleo com água, espalhando-o com a mão sobre toda a Fonte. Se houver pessoas para baptizar, baptiza-se segundo o rito do costume: em seguida, enquanto o Sacerdote e seus Ministros voltam ao Altar, dois cantores começam as Ladainhas."
           ]
         ],
-        "id": "",
+        "id": "De benedictione fontis baptismalis",
         "label": "Bênção da Pia Baptismal"
       },
       {
@@ -393,7 +393,7 @@
             "No fim das Ladainhas, os cantores começam solenemente Kyrie eléison, Christe eléison, Kyrie eléison, e cada verso repete-se duas vezes. Enquanto isso, o Padre e seus Ministros, revestidos de paramentos brancos, dirigem-se ao Altar e tendo o Salmo Judica me..., acrescentando o Glória Patri..., diz o Confiteor..., da maneira e no lugar habitual. Depois, subindo ao Altar, beija e incensa como de costume e, quando o coro termina o Kyrie eléison, entoa solenemente o Glória in excélsis Deo, durante o qual se tocam os sinos."
           ]
         ],
-        "id": "",
+        "id": "Missam",
         "label": "Santa Missa"
       },
       {
@@ -457,7 +457,6 @@
       },
       {
         "body": [
-          [""],
           [
             "*Prefácio da Páscoa*\nÉ verdadeiramente digno e justo, racional e salutar, que Vos louvemos sempre, mas principalmente... em que Jesus Cristo foi imolado, como nova Páscoa. Pois Ele é o verdadeiro Cordeiro que tirou os pecados do mundo e que pela sua Ressurreição nos restituiu a vida. Por isso, com os Anjos e Arcanjos, com os Tronos e Dominações e com toda a milícia do exército celestial, cantamos o hino da vossa glória, dizendo incessantemente:",
             "*Paschalis*\nVere dignum et justum est, æquum et salutáre: Te quidem, Dómine, omni témpore, sed in hoc potíssimum (sed tempore Passionis)\nhac potíssimum nocte (sed octava Paschæ)\nhac potíssimum die gloriósius prædicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus cumque omni milítia coeléstis exércitus hymnum glóriæ tuæ cánimus, sine fine dicéntes:"
