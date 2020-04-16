@@ -612,7 +612,7 @@ _
 _
 ! Celebrans in cantu incipit antiphonam ad Benedíctus.
 
-! Mk 16,2
+! Mc16,2
 Ant. Et valde mane una sabbatórum, véniunt ad monuméntum, orto iam sole, allelúia.
 
 
