@@ -25,6 +25,7 @@ PREFATIO_NAT = 'Nat'
 PREFATIO_EPI = 'Epi'
 PREFATIO_OMIT = 'prefatio_omit'
 PREFATIO_LENT = 'Quad'
+PREFATIO_JOSEPH = 'Joseph'
 
 ASTERISK = '*'
 PATTERN_TEMPORA = re.compile(r'^tempora:.*')
@@ -295,7 +296,7 @@ TEMPORA_PASC1_6 = 'tempora:Pasc1-6:4:w'
 TEMPORA_PASC2_0 = 'tempora:Pasc2-0:2:w'
 TEMPORA_PASC2_1 = 'tempora:Pasc2-1:4:w'
 TEMPORA_PASC2_2 = 'tempora:Pasc2-2:4:w'
-TEMPORA_PASC2_3 = 'tempora:Pasc2-3Feria:4:w'
+TEMPORA_PASC2_3 = 'tempora:Pasc2-3:2:w'
 TEMPORA_PASC2_4 = 'tempora:Pasc2-4Feria:4:w'
 TEMPORA_PASC2_5 = 'tempora:Pasc2-5Feria:4:w'
 TEMPORA_PASC2_6 = 'tempora:Pasc2-6Feria:4:w'
@@ -630,17 +631,16 @@ SANCTI_04_28 = 'sancti:04-28:3:w'
 SANCTI_04_29 = 'sancti:04-29:3:r'
 SANCTI_04_30 = 'sancti:04-30:3:w'
 
-SANCTI_05_01 = 'sancti:05-01r:1:w'  # St. Joseph the Worker
+SANCTI_05_01 = 'sancti:05-01:2:r'  # SS. Philip and James, Apostles
 SANCTI_05_02 = 'sancti:05-02:3:w'
-SANCTI_05_03 = 'sancti:05-03:4:r'
-SANCTI_05_03PL = 'sancti:05-03pl:1:w'
+SANCTI_05_03 = 'sancti:05-03:2:r'
 SANCTI_05_04 = 'sancti:05-04:3:w'
 SANCTI_05_05 = 'sancti:05-05:3:w'
+SANCTI_05_06 = 'sancti:05-06:3:r'
 SANCTI_05_07 = 'sancti:05-07:3:r'
-SANCTI_05_08PL = 'sancti:05-08pl:1:r'
+SANCTI_05_08 = 'sancti:05-08:2:w'
 SANCTI_05_09 = 'sancti:05-09:3:w'
 SANCTI_05_10 = 'sancti:05-10:3:w'
-SANCTI_05_11 = 'sancti:05-11r:2:r'  # SS. Philip and James, Apostles
 SANCTI_05_12 = 'sancti:05-12:3:r'
 SANCTI_05_13 = 'sancti:05-13:3:w'
 SANCTI_05_14 = 'sancti:05-14:4:r'
@@ -684,7 +684,7 @@ SANCTI_06_23 = 'sancti:06-23:2:v'  # Vigil of st. John Baptist
 SANCTI_06_24 = 'sancti:06-24:1:w'  # St. John Baptist
 SANCTI_06_25 = 'sancti:06-25:3:w'
 SANCTI_06_26 = 'sancti:06-26r:3:r'
-SANCTI_06_28 = 'sancti:06-28r:2:v'  # Vigil of ss. Peter and Paul
+SANCTI_06_28 = 'sancti:06-28:3:r'  # Irineu
 SANCTI_06_29 = 'sancti:06-29:1:r'  # Ss. Peter and Paul
 SANCTI_06_30 = 'sancti:06-30:3:r'
 
@@ -928,6 +928,7 @@ TABLE_OF_PRECEDENCE = (
     TEMPORA_PASC0_4,
     TEMPORA_PASC0_5,
     TEMPORA_PASC0_6,
+    # TEMPORA_PASC2_3,
     TEMPORA_PASC7_1,  # Pentecost Octave
     TEMPORA_PASC7_2,
     TEMPORA_PASC7_3,
@@ -1030,6 +1031,7 @@ for id_, sections in EXCLUDE_SECTIONS:
 CUSTOM_PREFACES = (
     (TEMPORA_PENT02_0, PREFATIO_TRINITATE),  # 2nd Sun. after Pentecost - force Trinitate as otherwise it shows communis
     (SANCTI_01_01, PREFATIO_NAT),
+    (TEMPORA_PASC2_3, PREFATIO_JOSEPH),
     (SANCTI_01_06, PREFATIO_EPI),
     (SANCTI_11_09, PREFATIO_COMMUNIS),  # Consecration of basilica in Lateran
     (SANCTI_11_18, PREFATIO_COMMUNIS),  # Consecration of basilica of Peter and Paul

@@ -192,7 +192,7 @@ def rule_2nd_class_sunday(
     # lower commemorations are skipped
     if match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2) and date_.weekday() == SUNDAY:
         if match(observances, PATTERN_SANCTI_CLASS_2):
-            return [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)], [match(observances, PATTERN_SANCTI_CLASS_2)], []
+            return [match(observances, PATTERN_SANCTI_CLASS_2)], [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)], []
         else:
             return [match(observances, PATTERN_TEMPORA_SUNDAY_CLASS_2)], [], []
 
